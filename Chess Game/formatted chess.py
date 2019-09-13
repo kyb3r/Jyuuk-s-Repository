@@ -6,7 +6,7 @@ class piece:
         self.name = name
         self.coordinate = coordinate
         self.colour = colour
-        chess_baord_dict[self.coordinate] = self.name
+        chess_board_dict[self.coordinate] = self.name #Change Made Here
     def possible_moves(self):
         row = self.coordinate[0]
         col = self.coordinate[1]
